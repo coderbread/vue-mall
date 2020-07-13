@@ -2,11 +2,7 @@
 q
 ### 基于vue-cli v4.4.6的自建框架（商城实战）
 ##### webpack 配置 
-<<<<<<< HEAD
-##### package.json 配置和修改
-=======
 ##### package.json 配置和修改 
->>>>>>> merge-test
 
 ### git 回退分支版本 （本地库（工作区） -- 暂存区 -- 分支仓库）
   git reset --hard HARD^ 回退到上个版本
@@ -17,3 +13,6 @@ q
   git commit只提交经过add的修改内容，本地库（工作区） -add- 暂存区 -commit- 分支仓库
 
   git reset回退分支和暂存区   git checkout -- <file> 回退工作区
+
+  git branch --set-upstream branch-name origin/branch-name
+  git checkout -b branch-name origin/branch-name
